@@ -11,3 +11,7 @@ const produtos = [
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
  
+ // Criando um novo array
+
+ const arrayLimpeza = produtos.filter((value) => {return value.categoria === 'Limpeza'});
+ console.log(arrayLimpeza);
